@@ -2,10 +2,11 @@ import { Request, Response, NextFunction } from 'express'
 import jwt from 'jsonwebtoken'
 import { NotAuthorizedError } from '../errors/notAuthorizedError'
 
-interface UserPayload {
+export interface UserPayload {
   id: string
   email: string
   username: string
+  avatar?: string
 }
 
 declare global {
