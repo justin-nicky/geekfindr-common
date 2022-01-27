@@ -1,6 +1,6 @@
 import { Subjects } from './subjects'
 
-export interface userCreatedEvent {
+export interface UserCreatedEvent {
   subject: Subjects.UserCreated
   data: {
     userId: string
