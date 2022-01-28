@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken'
 import { NotAuthorizedError } from '../errors/notAuthorizedError'
 
 export interface UserPayload {
-  userId: string
+  id: string
   email: string
   username: string
   avatar?: string
