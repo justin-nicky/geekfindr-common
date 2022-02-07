@@ -1,6 +1,6 @@
 import { Subjects } from './subjects'
 
-export interface UserCreatedEvent {
+export interface ProfileFollowingAddedEvent {
   subject: Subjects.ProfileFollowingAdded
   data: {
     followerId: string
