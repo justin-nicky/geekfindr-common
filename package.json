@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del ./lib/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"updates\" && git push origin main && npm version patch && npm run build && npm publish && cd ../auth && npm run update-common && cd ../posts && npm run update-common && cd ../profiles && npm run update-common"
+    "pub": "git add . && git commit -m \"updates\" && git push origin main && npm version patch && npm run build && npm publish && cd ../auth && npm run update-common && cd ../posts && npm run update-common && cd ../profiles && npm run update-common && cd ../projects && npm run update-common && cd ../chats && npm run update-common"
   },
   "keywords": [],
   "author": "",
