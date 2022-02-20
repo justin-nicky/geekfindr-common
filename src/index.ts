@@ -4,6 +4,7 @@ export * from './errors/databaseConnectionError'
 export * from './errors/notAuthorizedError'
 export * from './errors/notFoundError'
 export * from './errors/requestValidationError'
+export * from './errors/forbiddenOperationError'
 
 export * from './middlewares/errorHandler'
 export * from './middlewares/protectRoute'
